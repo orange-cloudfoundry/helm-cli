@@ -4,10 +4,10 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 #--- Packages versions
 ENV KUBECTL_VERSION="1.10.2" \
-    HELM_VERSION="2.10.0" \
-"
+    HELM_VERSION="2.10.0" 
+
 ENV CONTAINER_LOGIN="bosh" CONTAINER_PASSWORD="welcome" \
-    INIT_PACKAGES="apt-utils ca-certificates sudo wget curl unzip openssh-server openssl apt-transport-https" \
+    INIT_PACKAGES="apt-utils ca-certificates sudo wget curl unzip openssh-server openssl apt-transport-https" 
  
 
 RUN echo "=====================================================" && \
