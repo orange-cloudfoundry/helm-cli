@@ -7,7 +7,6 @@ ENV KUBECTL_VERSION="1.10.2" \
 ENV CONTAINER_LOGIN="bosh" CONTAINER_PASSWORD="welcome" \
     INIT_PACKAGES="apt-utils ca-certificates sudo wget curl unzip openssh-server openssl apt-transport-https" 
  
-
 RUN echo "=====================================================" && \
     echo "=> Install system tools packages" && \
     echo "=====================================================" && \
